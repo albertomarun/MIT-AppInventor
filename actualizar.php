@@ -3,7 +3,7 @@
 DEFINE ('DBUSER', 'usuario');
 DEFINE ('DBPW', 'clave');
 DEFINE ('DBHOST', 'localhost');
-DEFINE ('DBNAME', 'db_xxx');
+DEFINE ('DBNAME', 'db_xxxx');
 
 $dbc = mysqli_connect(DBHOST,DBUSER,DBPW);
 if (!$dbc) {
