@@ -7,7 +7,7 @@ DEFINE ('DBNAME', 'db_xxxx');
 
 $dbc = mysqli_connect(DBHOST,DBUSER,DBPW);
 if (!$dbc) {
-    die("Error de conexion Base de Datos: " . mysqli_error($dbc));
+    die("Error de conexion en Base de Datos: " . mysqli_error($dbc));
     exit();
 }
 
